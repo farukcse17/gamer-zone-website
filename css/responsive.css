@@ -1,0 +1,17 @@
+/* Tablet Device  */
+@media screen and (max-width: 768px){
+    /* Header nav menu styles */
+
+}
+
+
+/* Large Mobile Devices */
+@media screen and (max-width: 425px){
+    /* Header nav menu styles */
+    .nav-container, .nav-menu{
+        flex-direction: column;
+    }
+    .nav-menu li{
+        margin: 30px 0px;
+    }
+}
