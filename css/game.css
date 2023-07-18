@@ -12,7 +12,7 @@ body{
     font-size: 18px;
 }
 :root{
-    --linear: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    --linear: #FF42A5;
     --btn-sea-blue: #4EC5F7;
     --container-margin: 0 auto;
     --primary-font-size: 20px;
@@ -33,6 +33,12 @@ a{
     text-transform: uppercase;
     border-radius: 48px;
     background: var(--linear);
+    border: none;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.btn-primary:hover,.btn-sea-blue:hover{
+    opacity: 0.7;
 }
 .btn-sea-blue{
     border-radius: 48px;
@@ -60,10 +66,15 @@ a{
     vertical-align: center;
 }
 .nav-container .logo img{
-    margin-right: 30px;
+    margin-right: 20px;
 }
-.nav-container .logo h2{}
-.nav-container .logo h2 > span{}
+.nav-container .logo h2{
+    font-size: 45px;
+    font-weight: 700;
+}
+.nav-container .logo h2 > span{
+    color: var(--linear);
+}
 
 .nav-menu{
     display: flex;
@@ -88,3 +99,7 @@ a{
     color: #000;
     outline-color: #08FFF9;
 }
+
+/* Banner section styles */
+.banner-container{}
+.banner-content{}
