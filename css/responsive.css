@@ -10,7 +10,7 @@
 /* Large Mobile Devices */
 @media screen and (max-width: 425px){
     /* Header nav menu styles */
-    .nav-container, .nav-menu,.video-items,.hero-section{
+    .nav-container, .nav-menu,.video-items,.hero-section,.footer-section{
         flex-direction: column;
     }
     .nav-menu li{
@@ -76,4 +76,21 @@
   .hero-img .inner-img img{
     width: 150px;
   }
+  /* footer styles */
+  .footer-container{
+    padding: 40px;
+  }
+  .footer-menu{
+    flex-wrap: wrap;
+  }
+.footer-menu li{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.social-icon img{
+    margin: 10px;
+}
+  
 }
