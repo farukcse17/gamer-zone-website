@@ -10,7 +10,7 @@
 /* Large Mobile Devices */
 @media screen and (max-width: 425px){
     /* Header nav menu styles */
-    .nav-container, .nav-menu,.video-items{
+    .nav-container, .nav-menu,.video-items,.hero-section{
         flex-direction: column;
     }
     .nav-menu li{
@@ -63,4 +63,17 @@
     .video-box .video-caption{
         text-align: center;
     }
+  /* hero section */
+  .hero-section{
+    padding: 0px 40px;
+  }
+  .hero-content,.hero-img{
+    width: 100%;
+  }
+  .hero-img .inner-img{
+    left: -10%;
+  }
+  .hero-img .inner-img img{
+    width: 150px;
+  }
 }
