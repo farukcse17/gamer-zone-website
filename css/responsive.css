@@ -63,6 +63,9 @@
     .video-box .video-caption{
         text-align: center;
     }
+    .video-box:hover .overlay-watch-icon{
+        height: 80%;
+    }
   /* hero section */
   .hero-section{
     padding: 0px 40px;
@@ -86,11 +89,15 @@
 .footer-menu li{
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: 10px;
+}
+.footer-menu li:first-child{
+    /* margin-left: 0px; */
 }
 .social-icon img{
     margin: 10px;
 }
-  
+.terms-and-condition-menu li a,.footer-container p{
+    margin-top: 0px;
+}
 }
