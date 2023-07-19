@@ -86,18 +86,29 @@
   .footer-menu{
     flex-wrap: wrap;
   }
-.footer-menu li{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 10px;
-}
-.footer-menu li:first-child{
-    /* margin-left: 0px; */
-}
-.social-icon img{
-    margin: 10px;
-}
-.terms-and-condition-menu li a,.footer-container p{
-    margin-top: 0px;
-}
+    .footer-menu li{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+    }
+    .footer-menu li:first-child{
+        /* margin-left: 0px; */
+    }
+    .social-icon img{
+        margin: 10px;
+    }
+    .terms-and-condition-menu li a,.footer-container p{
+        margin-top: 0px;
+    }
+    .we-are-gamer-container{
+        flex-direction: column-reverse;
+        padding: 50px 30px;
+    }
+    .we-are-gamer-content{
+        width: 100%;
+        text-align: center;
+    }
+    .we-are-gamer-img{
+        width: 100%;
+    }
 }
