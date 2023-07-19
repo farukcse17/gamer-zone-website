@@ -323,7 +323,7 @@ a{
 }
 .btn-link-container{
     padding:100px 0px;
-    max-width: 1120px;
+    max-width: var(--container-width);
     margin:var(--container-margin);
     display: flex;
     justify-content: center;
@@ -366,8 +366,8 @@ a{
 }
 .footer-container{
     padding:100px 0px;
-    max-width: 1120px;
-    margin:var(--container-margin);
+    max-width: var(--container-width);
+    /* margin: var(--container-margin); */
     text-align: center;
 }
 .footer-container .logo{

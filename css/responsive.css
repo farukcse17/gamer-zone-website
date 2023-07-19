@@ -1,8 +1,17 @@
 /* Tablet Device  */
 @media screen and (max-width: 768px){
     /* Header nav menu styles */
+    .nav-container{
+        flex-direction: column;
+    }
+    .nav-container .logo{
+        margin-bottom: 20px;
+    }
     .banner-container{
-        padding: 20px 40px;
+        padding: 20px 20px;
+    }
+    .we-are-gamer-content{
+        text-align: left;
     }
 }
 
@@ -21,7 +30,7 @@
     }
     .banner-container{
         flex-direction: column-reverse;
-        padding: 20px 40px;
+        padding: 20px 20px;
     }
     .banner-content{
         background-image: url('../images/banner-sec-img.png');
@@ -46,11 +55,14 @@
         font-size: 16px;
         font-weight: normal;
     }
-   
+   .btn-group .btn-primary{
+        margin-bottom: 20px;
+   }
     .btn-primary,.btn-sea-blue{
         padding: 18px 30px;
         font-size: 16px;
         font-weight: normal;
+
     }
     /* Main section */
     /* Games Funny video watch styles section */
