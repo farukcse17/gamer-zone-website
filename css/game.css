@@ -235,6 +235,7 @@ a{
 .video-items{
     display: flex;
     gap: 20px;
+    justify-content: space-evenly;
 }
 .video-box{
     width: 258px;
@@ -307,15 +308,15 @@ a{
     position: relative;
 }
 .hero-img > img{
-    width: 80%;
+    width: 95%;
 }
 .hero-img .inner-img{
     position: absolute;
     top: 60%;
-    left: -10%;
+    left: -13%;
 }
 .inner-img img{
-    width: 200px;
+    width: 250px;
 }
 /* Game link button section styles */
 .games-btn-link-section{
