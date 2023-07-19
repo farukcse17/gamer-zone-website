@@ -18,7 +18,8 @@ body{
     --primary-font-size: 20px;
     --primary-text-color: #534C64;
     --secondary-text-color: #3C354F;
-    --container-width: 1024px;
+    --container-width: 1166px;
+    /* --container-width: 1024px; */
     /* --container-width: 1440px; */
 }
 a{
@@ -306,15 +307,15 @@ a{
     position: relative;
 }
 .hero-img > img{
-    width: 100%;
+    width: 80%;
 }
 .hero-img .inner-img{
     position: absolute;
     top: 60%;
-    left: -20%;
+    left: -10%;
 }
 .inner-img img{
-    width: 250px;
+    width: 200px;
 }
 /* Game link button section styles */
 .games-btn-link-section{

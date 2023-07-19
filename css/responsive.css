@@ -86,11 +86,15 @@
     width: 100%;
   }
   .hero-img .inner-img{
-    left: -10%;
+    left: -36%;
   }
   .hero-img .inner-img img{
-    width: 150px;
+    width: 40%;
   }
+  /* .hero-img > img{
+    width: 100%;
+} */
+
   /* footer styles */
   .footer-container{
     padding: 40px;
