@@ -13,6 +13,13 @@
     .we-are-gamer-content{
         text-align: left;
     }
+    .video-items{
+        flex-wrap: wrap;
+        flex-grow: 1;
+    }
+    .footer-menu li:first-child{
+        margin-left: 0px;
+    }
 }
 
 
