@@ -37,7 +37,7 @@
 
 
 /* Large Mobile Devices */
-@media screen and (max-width: 425px){
+@media screen and (max-width: 576px){
     /* Header nav menu styles */
     .nav-container, .nav-menu,.video-items,.careers-container,.careers-skills-location, .hero-section, .footer-section{
         flex-direction: column;
