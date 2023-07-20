@@ -44,7 +44,7 @@ a{
 .btn-sea-blue{
     border-radius: 48px;
     background: var(--btn-sea-blue);
-    
+    margin-left: 20px;
 }
 .btn-white{
     background: white;
@@ -298,7 +298,7 @@ a{
 .hero-section{
     max-width: var(--container-width);
     margin: var(--container-margin);
-    margin-bottom: 70px;
+    margin-bottom: 120px;
     text-align: center;
     display: flex;
     align-items: center;
