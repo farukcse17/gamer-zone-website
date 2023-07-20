@@ -26,7 +26,7 @@ a{
     text-decoration: none;
     font-size: var(--primary-font-size);
 }
-.btn-primary,.btn-sea-blue{
+.btn-primary,.btn-sea-blue,.btn-white{
     padding: 20px 40px;
     color: #FFF;
     font-size: 20px;
@@ -45,6 +45,10 @@ a{
     border-radius: 48px;
     background: var(--btn-sea-blue);
     
+}
+.btn-white{
+    background: white;
+    color: #ff42a5;
 }
 .text-gradient{
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
@@ -235,56 +239,60 @@ a{
 .video-items{
     display: flex;
     gap: 20px;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 .video-box{
     width: 258px;
+}
+.video-box-container{
+    width: 258px;
     position: relative;
-    
+    border-radius: 10px;
+    transition: .2s;
 }
-
-.video-box img{
+.watch-img img{
     width: 100%;
-}
-.video-box > img:hover{
-    border: 3px solid #FF42A5;
-    border-radius: 12px;
-}
-.video-box .video-caption{
-    font-size: 16px;
-    color: var(--primary-text-color);
-    text-align: left;
 }
 .overlay-watch-icon{
     position: absolute;
-    display: none;
-    top: 100px;
-    /* left: 10px;
-    height: 200px;
-    width: 100%; */
-    border-radius: 10px;
-    
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 98%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
 }
-.overlay-watch-icon img{
-    width: 64px;
-    height: 64px;
-    border-radius: 50%;
+.overlay-watch-icon .fa-youtube, .overlay-watch-icon p{
+    color: white;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
 }
 .overlay-watch-icon p{
+    margin-top: 50px;
     color: #FF42A5;
-    font-weight: bold;
 }
-
-.video-box:hover .overlay-watch-icon{
-    display: block;
-    width: 100%;
-    height: 75%;
+.overlay-watch-icon .fa-youtube{
+    font-size: 50px;
+    color: white;
+}
+.video-box-container:hover .overlay-watch-icon{
+    opacity: 1;
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.37);
     cursor: pointer;
-    background-color: #00000070;
-    margin-top: -100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    color: #ff42a5;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.video-box p{
+    padding: 0px 10px;
+    text-align: left;
 }
 /* Hero section styles */
 .hero-section{
@@ -318,10 +326,46 @@ a{
 .inner-img img{
     width: 250px;
 }
+/* Careers section styles */
+.careers-section{
+    background-color: #F948B2;
+}
+.careers-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.careers-content{
+    width: 50%;
+    padding-left: 100px;
+    color: #FFF;
+}
+.careers-content .section-title{
+    color: #FFF;
+    margin-bottom: 30px;
+}
+.careers-skills-location{
+    display: flex;
+    justify-content: space-between;
+}
+.careers-skills-location ul{
+    font-weight: 600;
+    line-height: 40px; 
+    list-style-type: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.careers-img{
+    width: 50%;
+}
+.careers-img img{
+    width: 100%;
+   height: 822px;
+}
+
 /* Game link button section styles */
 .games-btn-link-section{
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
-    margin-top: 120px;
 }
 .btn-link-container{
     padding:100px 0px;

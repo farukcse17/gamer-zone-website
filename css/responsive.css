@@ -17,16 +17,26 @@
         flex-wrap: wrap;
         flex-grow: 1;
     }
+    .careers-section{
+        margin-top: 150px;
+    }
+      .careers-container{
+        padding: 50px 0px;
+      }
+      .careers-skills-location{
+        flex-direction: column;
+      }
     .footer-menu li:first-child{
         margin-left: 0px;
     }
+
 }
 
 
 /* Large Mobile Devices */
 @media screen and (max-width: 425px){
     /* Header nav menu styles */
-    .nav-container, .nav-menu,.video-items,.hero-section,.footer-section{
+    .nav-container, .nav-menu,.video-items,.careers-container,.careers-skills-location, .hero-section, .footer-section{
         flex-direction: column;
     }
     .nav-menu li{
@@ -76,6 +86,9 @@
     .video-box{
         width: 100%;
     }
+    .video-box-container{
+        width: 100%;
+    }
     .games-funny-videos{
         padding: 0px 40px;
     }
@@ -98,9 +111,26 @@
   .hero-img .inner-img img{
     width: 40%;
   }
-  /* .hero-img > img{
+  /* Career section styles */
+  .careers-container{
+    padding: 20px;
+}
+  .careers-content{
     width: 100%;
-} */
+    padding-left: 0px;
+  }
+  .careers-img{
+    width: 100%;
+  }
+  .careers-img img{
+    margin-top: 30px;
+    height: 400px;
+  }
+  /* Games button group styles */
+  .games-btn-link-section{
+    margin-top: 0px;
+  }
+
 
   /* footer styles */
   .footer-container{
@@ -113,9 +143,6 @@
         margin-top: 20px;
         margin-bottom: 20px;
         margin-left: 10px;
-    }
-    .footer-menu li:first-child{
-        /* margin-left: 0px; */
     }
     .social-icon img{
         margin: 10px;
