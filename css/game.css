@@ -264,7 +264,7 @@ a{
     opacity: 0;
     transition: .3s ease;
 }
-.overlay-watch-icon .fa-youtube, .overlay-watch-icon p{
+.overlay-watch-icon .fa-youtubes, .overlay-watch-icon p{
     color: white;
     position: absolute;
     top: 45%;
@@ -277,7 +277,7 @@ a{
     margin-top: 50px;
     color: #FF42A5;
 }
-.overlay-watch-icon .fa-youtube{
+.overlay-watch-icon .fa-youtubes{
     font-size: 50px;
     color: white;
 }
